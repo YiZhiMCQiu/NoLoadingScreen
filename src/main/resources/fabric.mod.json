@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "nls",
+    "version": "${version}",
+    "name": "NoLoadingScreen",
+    "description": "",
+    "authors": [],
+    "contact": {},
+    "license": "All-Rights-Reserved",
+    "icon": "assets/nls/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "net.example.nls.client.NoLoadingScreenModClient"
+        ],
+        "main": [
+            "net.example.nls.NoLoadingScreenMod"
+        ]
+    },
+    "mixins": [
+        "nls.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": "${minecraft_version}"
+    }
+}

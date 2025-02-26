@@ -1,0 +1,5 @@
+accessWidener v1 named
+
+accessible method net/minecraft/client/MinecraftClient onFinishedLoading (Lnet/minecraft/client/MinecraftClient$LoadingContext;)V
+
+accessible field net/minecraft/client/gui/screen/SplashOverlay reload Lnet/minecraft/resource/ResourceReload;
