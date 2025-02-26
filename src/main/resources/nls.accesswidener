@@ -3,3 +3,4 @@ accessWidener v1 named
 accessible method net/minecraft/client/MinecraftClient onFinishedLoading (Lnet/minecraft/client/MinecraftClient$LoadingContext;)V
 
 accessible field net/minecraft/client/gui/screen/SplashOverlay reload Lnet/minecraft/resource/ResourceReload;
+accessible field net/minecraft/client/MinecraftClient COMPLETED_UNIT_FUTURE Ljava/util/concurrent/CompletableFuture;
